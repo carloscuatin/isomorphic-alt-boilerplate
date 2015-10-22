@@ -1,3 +1,7 @@
+**This repository will only be updated now for experimentation purposes, for a real boilerplate use the [generator-iso-alt](https://www.npmjs.com/package/generator-iso-alt).**
+
+----
+
 # Isomorphic Alt boilerplate
 
 This is a simple boilerplate for isomorphic apps with [React](http://facebook.github.io/react/) + [Alt](https://github.com/goatslacker/alt).
