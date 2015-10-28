@@ -8,6 +8,22 @@ This is a simple boilerplate for isomorphic apps with [React](http://facebook.gi
 
 It's a first implementation, so I'm sure I forget a lot of details and I know there's a lot to improve. I started this just to test if Alt was as simple as [Fluxible](http://fluxible.io/) to make isomorphic apps, turns out it worked (but not _that_ simple).
 
+## Installing and Running
+
+First you need to install the global dependencies
+
+* [Nodejs](https://nodejs.org/en/)
+* [Gulp](http://gulpjs.com/)
+
+Then, on the project folder run
+```shell
+npm install
+gulp
+```
+
+And...it's done!
+Now just access `localhost:3000` in your browser. 
+
 ## Libs
 
 The libs used here was:
