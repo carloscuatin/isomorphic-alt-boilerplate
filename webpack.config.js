@@ -18,7 +18,11 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: require.resolve('babel-loader')
+        loader: 'babel',
+        query: {
+          cacheDirectory: true,
+          presets: ["es2015", "react", "stage-1"]
+        }
       },
       {
         test: /\.json$/,

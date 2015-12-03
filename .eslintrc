@@ -1,5 +1,6 @@
 ---
   parser: "babel-eslint"
+  plugins: ["react"]
   env:
     node: true
   rules:

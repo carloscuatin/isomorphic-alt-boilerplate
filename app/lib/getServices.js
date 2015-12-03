@@ -7,7 +7,7 @@ export default function getServices() {
 
   serviceNames.forEach((serviceName) => {
     let Service = require(`app/services/${ serviceName }`);
-    Fetchr.registerService(new Service());
+    Fetchr.registerService(Service);
   });
 
   return Fetchr.middleware();
