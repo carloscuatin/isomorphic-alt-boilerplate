@@ -1,5 +1,4 @@
 var path    = require('path');
-
 var gulp    = require('gulp');
 var nodemon = require('gulp-nodemon');
 var rimraf  = require('gulp-rimraf');
