@@ -2,6 +2,7 @@ import path from 'path';
 
 import express from 'express';
 import bodyParser from 'body-parser';
+import config from 'config';
 import Fetchr from 'fetchr';
 import serialize from 'serialize-javascript';
 
@@ -15,7 +16,7 @@ import Layout from 'app/components/Layout';
 import Application from 'app/components/Application';
 
 const server = express();
-const port = process.env.PORT || 3000;
+//const port = process.env.PORT || 3000;
 
 server.use('/public',
   express.static(path.join(__dirname, '../build')));
@@ -54,8 +55,8 @@ server.use((req, res, next) => {
   .catch(next);
 });
 
-server.listen(port, () => {
-  console.log(`Listening on port ${ port }`);
+server.listen(config.get('port'), () => {
+  console.log(`Listening on port ${ config.get('port') }`);
 });
 
 export default server;
