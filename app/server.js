@@ -16,7 +16,6 @@ import Layout from 'app/components/Layout';
 import Application from 'app/components/Application';
 
 const server = express();
-//const port = process.env.PORT || 3000;
 
 server.use('/public',
   express.static(path.join(__dirname, '../build')));
