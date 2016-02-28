@@ -22,7 +22,7 @@ gulp
 ```
 
 And...it's done!
-Now just access `localhost:3000` in your browser. 
+Now just access `localhost:3000` in your browser.
 
 ## Libs
 
